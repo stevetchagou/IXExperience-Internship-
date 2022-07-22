@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="card mt- 4">
+            <div class="card-body text-center">
+                <h1 style="margin-bottom: 30px;">Task List</h1>
+                <hr></hr>
+                <h2 style="margin-bottom: 20px;">Our simple task list</h2>
+                <div class="input-group mb-3">
+                    <input id="task-input" type="text" class="form-control" placeholder="Task" aria-label="Task" aria-describedby="button-addon2">
+                    <button id="add-button" class="btn btn-outline-secondary" type="button">+</button>
+                </div>
+
+                <table class="table" style="text-align: left;" >
+                    <thead>
+                      <tr>
+                        <!-- <th scope="col">#</th> -->
+                        <th scope="col">Task</th>
+                        <th scope="col">Completed</th>
+                        <th scope="col">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody id="table-body">
+        
+                    </tbody>
+                  </table>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="tasklist.js"></script>
+
+    
+</body>
+</html>
