@@ -9,7 +9,7 @@ export default function App() {
   
   const [libraries, setLibraries] = useState([]);
 
-  function libraryCreated(library) {
+  function libraryCreated(library) { 
     //console.log('libraryCreated',library);
     const newLibrary = [];
     for(let l of libraries) { newLibrary.push(l)}
